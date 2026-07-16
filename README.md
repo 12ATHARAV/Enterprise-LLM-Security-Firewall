@@ -146,22 +146,6 @@ Returns the most recent 100 inspection events, including timestamp, user, role, 
 
 Returns the active security policies shown in the dashboard.
 
-## Installation and usage
-
-### Prerequisites
-
-- Node.js 18 or later (Node.js 22 recommended)
-- PowerShell, Command Prompt, or a terminal
-
-### Start the application
-
-```powershell
-cd "C:\Users\athar\Downloads\Final Year Project"
-npm start
-```
-
-Open [http://localhost:3000](http://localhost:3000) in a browser. Keep the terminal window open while using the dashboard.
-
 ### Run automated tests
 
 ```powershell
