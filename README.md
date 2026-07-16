@@ -1,6 +1,22 @@
 # Sentinel: Enterprise LLM Security Firewall
 
+<p align="center">
+  <a href="https://sentinel-llm-security-firewall.onrender.com"><img src="https://img.shields.io/badge/Live%20Demo-Open%20Application-46E3B7?style=for-the-badge&logo=render&logoColor=white" alt="Open live Sentinel demo"></a>
+  <img src="https://img.shields.io/badge/Node.js-18%2B-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js 18 or newer">
+  <img src="https://img.shields.io/badge/Tests-4%20passing-22C55E?style=for-the-badge&logo=node.js&logoColor=white" alt="Four automated tests passing">
+</p>
+
+<p align="center"><strong>AI security gateway for enterprise LLM applications.</strong></p>
+
 > A security gateway that protects enterprise AI systems from prompt injection, data leakage, malicious inputs, unauthorized data access, and unsafe model use.
+
+## Live demo
+
+**[Open Sentinel Security Firewall](https://sentinel-llm-security-firewall.onrender.com)**
+
+> The Render free tier may take a short time to wake up after inactivity.
+
+`#LLMSecurity` `#PromptInjection` `#DataLossPrevention` `#ZeroTrust` `#NodeJS` `#Cybersecurity`
 
 Sentinel is a full-stack B.Tech project demonstrating how an organization can place an intelligent security layer between its users and an enterprise LLM. Every prompt is inspected before model execution, and every generated response can be validated before it is returned to the user.
 
