@@ -1,0 +1,73 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnp.*
+
+# Build outputs and coverage
+dist/
+build/
+coverage/
+.nyc_output/
+*.tsbuildinfo
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+secrets/
+credentials.json
+
+# Runtime files
+*.log
+logs/
+*.pid
+*.pid.lock
+server-output.log
+server-error.log
+
+# Editor and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
+.sentinel-git/
+
+# Test and tooling caches
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+.turbo/
+.npm/
+.yarn/
+.pnpm-store/
+
+# Local deployment / infrastructure state
+.terraform/
+*.tfstate
+*.tfstate.*
+.serverless/
+.vercel/
+.netlify/
+
+# Python artifacts (for future security-service modules)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Application-specific local data
+data/
+audit-logs/
+uploads/
