@@ -146,22 +146,6 @@ Returns the most recent 100 inspection events, including timestamp, user, role, 
 
 Returns the active security policies shown in the dashboard.
 
-## Installation and usage
-
-### Prerequisites
-
-- Node.js 18 or later (Node.js 22 recommended)
-- PowerShell, Command Prompt, or a terminal
-
-### Start the application
-
-```powershell
-cd "C:\Users\athar\Downloads\Final Year Project"
-npm start
-```
-
-Open [http://localhost:3000](http://localhost:3000) in a browser. Keep the terminal window open while using the dashboard.
-
 ### Run automated tests
 
 ```powershell
@@ -223,10 +207,6 @@ To evolve Sentinel into an enterprise-ready platform:
 6. Add semantic injection classifiers, embedding similarity checks, and threat-intelligence feeds.
 7. Deploy behind Envoy/Istio on Kubernetes with OpenTelemetry, Prometheus, and Grafana.
 8. Add governance controls aligned with GDPR, HIPAA, ISO 27001, OWASP Top 10 for LLM Applications, and the EU AI Act.
-
-## Academic value
-
-Sentinel demonstrates AI security, Zero Trust, API security, DLP, policy enforcement, secure LLM operations, auditability, and cloud-native deployment design. It is suitable for a B.Tech final-year project demonstration, viva, or portfolio presentation.
 
 ---
 
