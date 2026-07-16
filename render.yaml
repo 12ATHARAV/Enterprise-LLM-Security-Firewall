@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: sentinel-llm-security-firewall
+    runtime: node
+    region: singapore
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /api/metrics
+    autoDeployTrigger: commit
