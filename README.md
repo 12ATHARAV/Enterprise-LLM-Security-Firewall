@@ -18,7 +18,7 @@
 
 `#LLMSecurity` `#PromptInjection` `#DataLossPrevention` `#ZeroTrust` `#NodeJS` `#Cybersecurity`
 
-Sentinel is a full-stack B.Tech project demonstrating how an organization can place an intelligent security layer between its users and an enterprise LLM. Every prompt is inspected before model execution, and every generated response can be validated before it is returned to the user.
+Sentinel is a full-stack project demonstrating how an organization can place an intelligent security layer between its users and an enterprise LLM. Every prompt is inspected before model execution, and every generated response can be validated before it is returned to the user.
 
 ## Problem statement
 
