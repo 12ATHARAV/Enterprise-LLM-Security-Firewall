@@ -196,10 +196,6 @@ To evolve Sentinel into an enterprise-ready platform:
 7. Deploy behind Envoy/Istio on Kubernetes with OpenTelemetry, Prometheus, and Grafana.
 8. Add governance controls aligned with GDPR, HIPAA, ISO 27001, OWASP Top 10 for LLM Applications, and the EU AI Act.
 
-## Academic value
-
-Sentinel demonstrates AI security, Zero Trust, API security, DLP, policy enforcement, secure LLM operations, auditability, and cloud-native deployment design. It is suitable for a B.Tech final-year project demonstration, viva, or portfolio presentation.
-
 ---
 
 Built for secure enterprise AI adoption.
