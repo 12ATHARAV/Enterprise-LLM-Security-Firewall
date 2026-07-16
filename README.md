@@ -154,18 +154,6 @@ npm test
 
 The test suite verifies prompt-injection blocking, DLP redaction, role-policy enforcement, Luhn card validation, and safe-request handling.
 
-## Free deployment on Render
-
-The repository includes a ready-to-use `render.yaml` Blueprint. It provisions a free Node.js web service in Render's Singapore region, runs `npm install`, starts the application with `npm start`, checks `/api/metrics` for health, and redeploys when changes are pushed to `main`.
-
-1. Create or sign in to a [Render account](https://render.com/).
-2. Select **New** > **Blueprint** in the Render dashboard.
-3. Connect GitHub and select the `Enterprise-LLM-Security-Firewall` repository.
-4. Render detects `render.yaml`; confirm the **Free** plan and click **Apply**.
-5. When the deploy completes, open the generated `https://sentinel-llm-security-firewall.onrender.com` URL (Render may add a suffix if that name is already used).
-
-Render free services can sleep after inactivity, so the first request after a pause can take longer. The `render.yaml` format, web-service configuration, build/start commands, and free-plan setting follow the [Render Blueprint specification](https://render.com/docs/blueprint-spec) and [Node web-service guidance](https://render.com/docs/web-services).
-
 ## Demo scenarios
 
 | Scenario | Prompt / setup | Expected decision |
